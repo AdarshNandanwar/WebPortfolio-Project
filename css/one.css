@@ -1,5 +1,5 @@
 .top{
-	background-image: url("../img/main3.jpg");
+	background-image: url("../img/main6.jpg");
 	height:100vh;
 	background-position: center center;
 	background-size: cover;
@@ -8,6 +8,12 @@
 .stick{
 	position: sticky;
 	top: 10px;
+}
+
+.centerimg{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img-prop{
@@ -82,7 +88,7 @@
 }
 
 .sk-info{
-	
+	margin-top: 10vh;
 }
 
 .contact{
