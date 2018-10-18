@@ -7,34 +7,30 @@
 
 .stick{
 	position: sticky;
-	top: 10px;
+	top: 0px;					/*important, else it won't work*/ 
 }
 
-.centerimg{
+
+.centeritem{
 	display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.img-prop{
-	display: block;
-    margin-left: auto;
-    margin-right: 20px;
-    margin-bottom: 10px;
-}
-
 .heading-name{
-	margin-top: 65px;
 	font-size: 56px;
 	color:rgba(255,255,255,0.9);
 	font-weight: bold;
+	text-align: center;
+	width: 100%;
 }
 
 .heading-info{
-	margin-top: 10px;
 	font-size: 20px;
 	color:rgba(255,255,255,0.9);
 	font-weight: bold;
+	text-align: center;
+	width: 100%;
 }
 
 .project{
@@ -52,7 +48,7 @@
 }
 
 .pr-info{
-
+	padding-top: 10vh;
 }
 
 .about{
@@ -89,6 +85,10 @@
 
 .sk-info{
 	margin-top: 10vh;
+}
+
+.transparent{
+	background-color: transparent;
 }
 
 .contact{
