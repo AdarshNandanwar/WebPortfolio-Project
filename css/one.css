@@ -1,8 +1,10 @@
-.top{
-	background-image: url("../img/main6.jpg");
-	height:100vh;
-	background-position: center center;
-	background-size: cover;
+html {
+	scroll-behavior: smooth;
+}
+
+.section{
+	padding-top: 15vh;
+	height: 100vh;
 }
 
 .stick{
@@ -17,8 +19,21 @@
     margin-right: auto;
 }
 
+.top{
+	background-image: url("../img/main.jpg");
+	height:100vh;
+	background-position: center center;
+	background-size: cover;
+}
+
+.navlink{
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
 .heading-name{
-	font-size: 56px;
+	font-size: 48px;
 	color:rgba(255,255,255,0.9);
 	font-weight: bold;
 	text-align: center;
@@ -52,7 +67,7 @@
 }
 
 .about{
-	background-image: url("../img/about1.jpg");
+	background-image: url("../img/about3.jpg");
 	height:100vh;
 	background-position: center center;
 	background-size: cover;
@@ -70,7 +85,7 @@
 }
 
 .skills{
-	background-image: url("../img/skills1.jpg");
+	background-image: url("../img/skills.jpg");
 	height:100vh;
 	background-position: center center;
 	background-size: cover;
@@ -85,6 +100,15 @@
 
 .sk-info{
 	margin-top: 10vh;
+}
+
+.card-body{
+	color:white;
+	text-align: center;
+}
+
+.card-padding{
+	padding: 0px;
 }
 
 .transparent{
@@ -106,14 +130,28 @@
 }
 
 .co-info{
-	
+	padding-top: 5vh;
 }
 
 .footer{
 	background-color: black;
-	height :10vh;
+	height :6vh;
 	text-align: center;
-	font-size: 20px;
+	font-size: 2vh;
 	color:rgba(255,255,255,0.9);
-	padding-top: 4vh;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
 }
+
+/*Materialize form color*/
+/* label color */
+.input-field label {
+	color: white !important;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+	color: white !important;
+}
+.btn:focus{ 
+  background-color: #4dd0e1 !important;
+} 
